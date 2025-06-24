@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #090a0af5;
+}
+
+button {
+    border-radius: 3.40282e+38px;
+    padding: 7px;
+}
+
+.logo {
+    color: white;
+}
+
+.top-bar {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.right-item {
+    display: flex;
+    justify-items: center;
+    margin-left: auto;
+    gap: 5px;
+    align-items: center;
+}
+
+.help {
+    border: black solid 2px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+}
